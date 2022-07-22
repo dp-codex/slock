@@ -69,11 +69,11 @@ static const char *lockcmd[]  = { "slock", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-        { 0,                      	    XF86XK_AudioLowerVolume,    spawn,    	   SHCMD("Volume-Ctl -d") },
-	{ 0,                       	    XF86XK_AudioMute,           spawn, 	           SHCMD("Volume-Ctl -t") },
-	{ 0,                       	    XF86XK_AudioRaiseVolume,    spawn, 	           SHCMD("Volume-Ctl -i") },
-        { 0,                      	    XF86XK_KbdBrightnessUp,     spawn,    	   SHCMD("BackLight -i") },
-        { 0,                      	    XF86XK_KbdBrightnessDown,   spawn,    	   SHCMD("BackLight -d") },
+    { 0,                      	    XF86XK_AudioLowerVolume,    spawn,    	   SHCMD("Volume-Ctl -d") },
+	{ 0,                       	    XF86XK_AudioMute,           spawn, 	       SHCMD("Volume-Ctl -t") },
+	{ 0,                       	    XF86XK_AudioRaiseVolume,    spawn, 	       SHCMD("Volume-Ctl -i") },
+    { 0,                      	    XF86XK_KbdBrightnessUp,     spawn,    	   SHCMD("BackLight -i") },
+    { 0,                      	    XF86XK_KbdBrightnessDown,   spawn,    	   SHCMD("BackLight -d") },
 	{ 0,                      	    XF86XK_MonBrightnessDown,   spawn,    	   SHCMD("Brightness -d") },
 	{ 0,                      	    XF86XK_MonBrightnessUp,     spawn,    	   SHCMD("Brightness -i") },
 	{ MODKEY,                       XK_p,      spawn,          {.v = rofiRuncmd } },

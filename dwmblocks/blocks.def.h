@@ -16,7 +16,7 @@ static const Block blocks[] = {
 	//Volume
 	{"",		"DWM-Volume",	        0,		    2},
 	// udpates
-	{"📦 ",		"checkupdates | wc -l",	86400,		    3},
+	//{"📦 ",		"checkupdates | wc -l",	86400,		    3},
 	//Date
 	{"",		"DWM-Date",		        21600,		0},
 	//Time
