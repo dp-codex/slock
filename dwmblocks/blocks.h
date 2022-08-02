@@ -7,16 +7,14 @@ static const Block blocks[] = {
 	{"",		"DWM-Memory",		    10,			0},
 	//Brightness
 	{"",		"DWM-Brightness",	    0,			1},
-	//Disk
-	//{"",		"DWM-Disk",		        3600,		0},
 	//Battery
 	{"",		"DWM-Battery",		    60,			0},
 	//WIFI
-	{"🌏 ",	    "DWM-Network",		    100,		0},
+	{"Wifi ",	    "DWM-Network",		    100,		0},
 	//Volume
 	{"",		"DWM-Volume",	        0,		    2},
 	// udpates
-	//{"📦 ",		"checkupdates | wc -l",	86400,		    3},
+	{"Pkg ",		"checkupdates | wc -l",	86400,		    3},
 	//Date
 	{"",		"DWM-Date",		        21600,		0},
 	//Time
